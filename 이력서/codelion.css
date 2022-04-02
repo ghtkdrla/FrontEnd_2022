@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+body,h1,h2 {
+    margin: 0px;
+    padding: 0px;
+}
+.div-left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(211, 219, 228, 0.893);
+    padding: 30px;
+    
+}
+.div-right{
+    width: 70%;
+    float: right;
+    box-sizing: border-box;
+    background-color: hsl(208, 56%, 95%);
+    border-left: 5px dotted hsl(240, 88%, 23%);
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: 'Gamja Flower', cursive;
+    
+    
+}
+h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #282828;
+    border-bottom: 3px solid hsl(240, 88%, 23%) ;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+footer  {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #919191;
+    font-size: 12px;
+    padding: 20px;
+}
+/* border: 두께 방식 색깔 */
+/* margin-left ,margin-right 박스 가운데 정렬 */
+.mainbox {
+    display: flex;
+    justify-content: center;
+    border: 5px solid hsl(240, 88%, 23%);
+    width: 700px;
+    /* text-align: left; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px; 
+    box-shadow: 0 1px 20px 0 rgb(1, 1, 13,1);
+}
+.name-text{
+    font-size: 20px;
+    color: hsl(255, 91%, 26%);
+    font-weight: bolder;
+    text-align: right;
+    font-family: 'Gamja Flower', cursive;
+    
+}
+
+section {
+    margin-bottom: 24px; 
+}
+.about-me-text {
+    font-size: 10px;
+    line-height: 16px;
+}
+.title-text {
+    font-size: 13px;
+    font-weight: bolder;
+    color: #282828;
+    float: left;
+    
+}
+.year-text {
+    font-size: 13px;
+    font-weight: bolder;
+    color: #282828;
+    float: right;
+
+}
+/* overflow :hidden 다른요소들과 충돌 일어나지않음  */
+.float-wrap {
+    overflow: hidden;
+}
+.desc-text {
+    font-size: 13px;
+    
+    
+}
+.desc-subtext {
+    font-size: 11px;
+    color: #282828;
+    padding-left: 16px;
+    
+}
+.title-box {
+    text-align: right;
+}
+.sns-img {
+    width: 15px;
+    height: 15px;
+}
+.sns-wrap {
+    text-align: right;
+    margin-bottom: 20px;
+   
+}
+.my-face{
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
