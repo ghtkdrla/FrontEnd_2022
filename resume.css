@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+
+h1,h2 {
+    margin:0px;
+    padding:0px;
+    color:#FFFFFF;
+}
+
+p {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    color:#FFFFFF;
+    min-width: fit-content;
+    background-color: #1e1e1e;
+}
+
+h1 {
+    font-family: : 'Jua', sans-serif;
+    float : left;
+    font-size:36px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+h2 {
+    font-family: : 'Jua', sans-serif;
+    font-size:20px;
+    font-weight: BOLDER;
+    color : #FF8000;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom:24px;
+}
+
+
+
+.mainbox {
+    overflow:hidden;
+    width: 700px;
+    padding: 20px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+}
+
+.leftbox {
+    float : left;
+    width : 200px;
+    padding: 20px;
+}
+
+.rightbox {
+    float : left;
+    width : 400px;
+    padding: 20px;
+    border-left: 1px solid #ebebeb;
+}
+
+
+.name-text {
+    float : right;
+    font-size:16px;
+    color:#A4A4A4;
+    font-weight: bold;
+    font-family: : 'Jua', sans-serif;
+}
+
+.about-me-text {
+    font-color:#FFFFFF;
+    font-size:10px;
+    line-height: 16px;
+}
+
+
+
+.title-box {
+    text-align: right;
+}
+
+
+.float-wrap {
+    overflow: hidden;
+}
+
+
+.title-text {
+    font-family: : 'Jua', sans-serif;
+    font-size:11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    float: left;
+}
+
+.year-text{
+    font-size:11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    float: right;
+}
+
+.desc-text {
+    color:#FFFFFF;
+    font-size: 9px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color:#FFFFFF;
+    padding-left:16px;
+}
+
+.sns-img {
+    width:12px;
+    height:12px;
+}
+
+.sns-wrap {
+    clear:both;
+    text-align:right;
+    margin-bottom : 20px
+}
+
+.clear{
+  clear:both;
+}
+
+.picture{
+    width:170px;
+}
+
+footer {
+    clear:both;
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
