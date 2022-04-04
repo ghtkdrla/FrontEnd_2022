@@ -11,17 +11,24 @@ body,h1,h2 {
 
 body{
     min-width: fit-contents;
+    background-color: rgb(156, 207, 249);
+}
+
+.face{
+    width : 150px;
+    height: auto;
 }
 
 h1{
     font-size: 36px;
     font-weight: bold;
     font-style: italic;
+    text-align: left;
 }
 
 h2{
-    font-size: 20px;
-    color:#282828;
+    font-size: 25px;
+    color:#ffdb3b;
     font-weight:lighter;
     margin-bottom: 16px;
     border-bottom: 1px solid #ebebeb;
@@ -32,6 +39,7 @@ h2{
     font-size: 16px;
     color:#7c7c7c;
     font-weight: bold;
+    text-align: right;
 }
 
 .about-me-text{
@@ -45,10 +53,11 @@ h2{
     margin: 30px auto;
     border: 1px solid #ebebeb;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
 }
 
 .title-box{
-    text-align: right;
+    text-align: left;
 }
 
 section{
@@ -94,8 +103,24 @@ section{
 
 footer{
     text-align: center;
-    background-color: #1e1e1e;
+    background-color: #0066ff6a;
     padding: 20px;
     font-size: 12px;
-    color:#919191;
+    color:#e4e4e4;
+}
+
+.leftside{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.rightside{
+    width: 70%;
+    float: right;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-left: 1px solid #ebebeb;
 }
