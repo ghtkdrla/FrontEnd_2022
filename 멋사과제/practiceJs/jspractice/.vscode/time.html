@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time</title>
+  </head>
+  <body>
+    <style>
+      .timeout {
+        background-color: aliceblue;
+        width: 60%;
+        height: 100px;
+        text-align: center;
+        padding-top: 60px;
+      }
+    </style>
+    <div class="timeout">disappear after 7 sec</div>
+
+    <script>
+      var timecnt = 7;
+      setInterval(function () {
+        timecnt--;
+        document.querySelector(".timeout").innerHTML = "${timecnt}초 후 사라짐";
+      }, 1000);
+      setTimeout(function () {
+        document.querySelector(".timeout").style.display = "none";
+      }, 7000); //time함수. 시간관련 함수 js 함수 간단하게 만드는 방식으로 카운트다운
+    </script>
+  </body>
+</html>

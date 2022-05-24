@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .blue {
+        width: 0px;
+        height: 5px;
+        background-color: aliceblue;
+      }
+      .lyrics {
+        width: 250px;
+        height: 150px;
+        overflow-y: scroll;
+        background-color: aquamarine;
+      }
+    </style>
+    <div class="blue"></div>
+    <div class="lyrics">
+      <p>
+        이듬해 질 녘 꽃 피는 봄 한여름 밤의 꿈 가을 타 겨울 내릴 눈 일 년 네 번
+        또다시 봄 정들었던 내 젊은 날 이제는 안녕 아름답던 우리의 봄 여름 가을
+        겨울 (Four seasons with no reason) 비 갠 뒤에 비애 대신 a happy end
+      </p>
+    </div>
+    <script>
+      let bar = document.querySelector(".blue");
+      let lyric = document.querySelector(".lyrics");
+
+      lyric.addEventListener("scroll", function () {
+        let scrollTop = lyric.scrollTop;
+        let scrollHeight = lyric.scrollHeight - lyric.clientHeight;
+        let per = scrollTop / scrollHeight;
+        bar.style.width = "${per*250}px";
+      }); //scroll event handling 모양은 이벤트헨들링 다른것과 비슷 내부함수만 달라짐
+    </script>
+  </body>
+</html>
