@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const MediaDiv = styled.div`
   margin: 0px auto;
   min-height: 100vh;
@@ -21,6 +22,7 @@ export const HeaderDiv = styled.div`
     width: 100%;
   }
 `;
+
 export const TitleLogoDiv = styled.div`
   display: flex;
   flex-direction: column;
@@ -29,21 +31,27 @@ export const TitleLogoDiv = styled.div`
   margin: 15px;
   line-height: 1;
 `;
+
 export const TitleBig = styled.span`
   font-size: 40px;
 `;
+
 export const TitleSmall = styled.span`
   font-size: 20px;
 `;
+
 export const SubHeaderDiv = styled.div`
   margin: 15px;
   font-size: 25px;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 `;
+
 export const Main = styled.div`
   padding-top: 90px;
 `;
+
 export const SlogunSection = styled.div`
   margin-top: 10px;
   width: 100%;
@@ -52,10 +60,12 @@ export const SlogunSection = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
 export const SlogunBig = styled.span`
   font-size: 40px;
   font-family: "League Gothic", sans-serif;
 `;
+
 export const SlogunSmall = styled.span`
   margin: 3px;
   font-weight: bold;
@@ -84,10 +94,12 @@ export const PostTitle = styled.span`
   font-family: "Black Han Sans", sans-serif;
   font-size: 25px;
 `;
+
 export const PostListDiv = styled.div`
   font-size: 16px;
   font-family: "Noto Sans KR", sans-serif;
 `;
+
 export const LoadingDiv = styled.div`
   display: flex;
   justify-content: center;
@@ -95,15 +107,18 @@ export const LoadingDiv = styled.div`
   flex-direction: column;
   margin-top: 15px;
 `;
+
 export const LoadingImg = styled.img`
   width: 30px;
 `;
+
 export const EachPostLi = styled.li`
   margin: 14px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 `;
+
 export const PostLink = styled.span`
   margin-left: 5px;
 `;
@@ -141,5 +156,90 @@ export const FooterBig = styled.span`
 export const FooterSmall = styled.span`
   margin: 5px;
   font-size: 5px;
+`;
+export const CursorDiv = styled.div`
+  cursor: pointer;
+`;
+
+//ShowPost에 추가되는 스타일 컴포넌트
+export const PostReplDiv = styled.div`
+  border-top: 2px solid white;
+  margin-bottom: 15px;
+  width: 100%;
+  line-height: 24px;
+`;
+export const ReplTitleDiv = styled.div`
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+`;
+export const ReplWriter = styled.div`
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bolder;
+`;
+export const Repl = styled.span`
+  font-size: 12px;
+`;
+export const WriterDiv = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+export const ReplInput = styled.textarea`
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: "Noto Sans KR", sans-serif;
+`;
+export const ReplSubmitDiv = styled.div`
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #f39926;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+`;
+
+//WritePost.jsx
+export const PostWriteDiv = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+`;
+export const TitleInput = styled.input`
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+`;
+export const ContentsInput = styled.textarea`
+  margin-top: 10px;
+  padding: 10px;
+  height: 400px;
+  border-radius: 5px;
+  font-family: "Noto Sans KR", sans-serif;
+`;
+export const PostSubmitDiv = styled.div`
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #f39926;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+`;
+export const PostSubmit = styled.div`
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 20px;
 `;
 // export default MediaDiv;
